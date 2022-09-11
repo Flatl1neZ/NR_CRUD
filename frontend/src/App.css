@@ -1,0 +1,49 @@
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background-image: url("./assets/img/background.jpg");
+  background-position: center;
+}
+
+.main-header {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+
+.create-form label {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  color: #fff !important;
+}
+
+.alignButton {
+  text-align: center;
+}
+
+.formBack {
+  border-radius: 0.5em;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+.btnDiv {
+  text-align: right;
+}
+
+.newBtn {
+  margin: 5px !important;
+}
